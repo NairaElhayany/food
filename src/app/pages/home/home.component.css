@@ -1,0 +1,83 @@
+.banner
+{
+  background-image: url('../../../assets/img/banner.jpg');
+  height: 600px;
+  background-position: center top;
+  background-size: cover;
+}
+.content h1
+{
+  color:aliceblue;
+  font-size: 60px;
+  font-weight: bold;
+}
+.content
+{
+  top: 30%;
+  left: 20%;
+  position: absolute;
+}
+.content a
+{
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.content a:hover
+{
+  background-color: black;
+  color: aliceblue;
+
+}
+.stepBox
+{
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+.stepBox h1
+{
+  color: aliceblue;
+}
+.stepBox p
+{
+  color: darkgrey;
+  font-style: italic;
+}
+.foodbox
+{
+  padding: 10px 5px;
+}
+.foodbox img
+{
+width: 100%;
+height: 250px;
+object-fit: cover;
+border-radius: 5px;
+}
+.foodbox h1
+{
+font-size: 18px;
+margin-top: 10px;
+font-weight: bold;
+}
+
+.viewmore a
+{
+  text-decoration: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  
+}
+.viewmore a:hover
+{
+  background-color: black;
+  color:darkgray;
+}
